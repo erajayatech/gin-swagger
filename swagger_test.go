@@ -6,11 +6,11 @@ import (
 	"os"
 	"testing"
 
+	"github.com/erajayatech/gin-swagger/swaggerFiles"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
-	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	_ "github.com/swaggo/gin-swagger/example/basic/docs"
+	_ "github.com/erajayatech/gin-swagger/example/basic/docs"
 )
 
 func TestWrapHandler(t *testing.T) {
